@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Personajes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lista de Personajes</h1>
+
+    <div id="loading">Cargando personajes...</div>
+    <div id="error"></div>
+
+    <table id="characterTable" style="display: none;">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Aldea</th>
+          <th>Nivel de Poder</th>
+        </tr>
+      </thead>
+      <tbody id="characterBody">
+        <!-- Aquí se cargarán los personajes -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="/js/index.js"></script>
+
+</body>
+</html>
